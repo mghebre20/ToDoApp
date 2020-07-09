@@ -5,7 +5,7 @@
 
 Submitted by: *Million Ghebre*
 
-Time spent: *15* hours spent in total
+Time spent: *16* hours spent in total
 
 ## User Stories
 
@@ -27,7 +27,7 @@ The following *additional* features are implemented:
 
 A showcase of my application::
 
-<img src='https://media0.giphy.com/media/VIt2s1wH20JmbHlsBF/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/PnmZsqOUWusH0ZFf6Y/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Giphy](http://www.giphy.com/).
 
