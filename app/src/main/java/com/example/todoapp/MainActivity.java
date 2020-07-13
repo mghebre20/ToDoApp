@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         //loading users items
         loadItems();
 
+        //deleting a row
         //setting an onLongClickListener on ItemsAdapter
         ItemsAdapter.OnLongClickListener onLongClickListener = new ItemsAdapter.OnLongClickListener() {
             @Override
@@ -66,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 saveItems();
             }
         };
+
+        //traversing from main activity to edit activity
+        //updating the main activity of new text item at position
         ItemsAdapter.OnClickListener onClickListener = new ItemsAdapter.OnClickListener() {
             @Override
             public void onItemClicked(int position) {

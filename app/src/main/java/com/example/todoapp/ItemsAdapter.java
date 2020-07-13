@@ -20,7 +20,6 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
 
     public interface OnLongClickListener {
         void onItemLongClicked(int position);
-
     }
 
     List<String> items;
@@ -38,7 +37,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder> 
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
-        //use layout inflator to inflat a view
+        //use layout inflater to inflate a view
         View todoView = LayoutInflater.from(parent.getContext()).inflate(android.R.layout.simple_list_item_1,parent, false);
 
         //wrap it inside a View Holder and return it
